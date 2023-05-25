@@ -25,6 +25,7 @@ return new class extends Migration
             $table->boolean('on_time');
             $table->boolean('delayed');
             $table->boolean('cancelled');
+            $table->timestamps();
         });
     }
 

@@ -11,6 +11,7 @@ class PageController extends Controller
     public function index()
         {
             $trains = Train::all();
+            /* dd($trains); */
             // dd(nostromodel con la s);
             return view('welcome', compact('trains'));
         }
