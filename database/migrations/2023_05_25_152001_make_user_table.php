@@ -22,8 +22,9 @@ return new class extends Migration
             $table->string('arrival_time');
             $table->string('train_code');
             $table->string('wagons_n');
-            $table->string('on_time');
-            $table->string('cancelled');
+            $table->boolean('on_time');
+            $table->boolean('delayed');
+            $table->boolean('cancelled');
         });
     }
 
