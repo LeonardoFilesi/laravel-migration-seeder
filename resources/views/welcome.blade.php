@@ -17,9 +17,9 @@
 
 <body>
 
-    @include('header')
+    @include('layouts.header')
     <main>
-          @yield('main')
+          @yield('layouts.main')
     </main>
 
 </body>
